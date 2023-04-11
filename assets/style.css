@@ -1,31 +1,59 @@
-html 
 
 .mainheader {
-  display:inline-block;
   flex-direction: column;
-  font-size: 100px;
+  display:flex;
+  font-size: 150%;
   width: 100%;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  justify-content:right;  
+  justify-content:right; 
+  font-style: bold;
+}
+
+body {
+    background-color: lightcoral;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: block;
+    flex-direction: column;
 }
 
 .topnav {
-    float:right;
-    font-display: bold;
-    width: 50%;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    color::blue;
+   flex-direction: column;
+   
+}
+
+.aboutme {
+    font-size: 80px;
+    font-style: italic;
+
+
 }
 
 #container {
-    float::inline-end;
+    width: 0%;
+    float:inline-end;
     display: block;
-    text align: right;
-    padding: 0px;
+    text-align: right;
+    padding: 50px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    
+}
+
+
+.nav-bar li { 
+    color: blue;
+
+}
+
+.nav-bar li a:hover {
+    cursor: grab;
+
+}
+
+h1 h2 h3 h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: larger;
+    word-spacing: auto;
 }
 
