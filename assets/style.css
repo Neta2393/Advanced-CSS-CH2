@@ -2,7 +2,6 @@
 #banner {
     background-image: url(C:\Users\benet\bootcamp\advanced-css-ch2\assets\San Diego View.jpeg);
     background-repeat: no-repeat;
-    background-position: center;
     margin:15px;
     padding: 15px;
     font-size: 80px;
@@ -25,6 +24,7 @@
 
 body {
     float: right;
+    /* Inherits this property from its parent element */
     white-space:  inherit;
     background-color: lightskyblue;
     color:blue;
@@ -38,11 +38,14 @@ body {
 }
 
 #aboutme {
+
     justify-content: space-around;
     justify-content: space-between;
+    /* placed the contents of the paragraph in the center of the page */
     float: center;
     font-style: italic;
     display: flex;
+    /* Placed the title and the paragraph on top and bottm */
     flex-direction: column;
     margin: 10px;
     padding: 15px;
@@ -88,5 +91,4 @@ nav li a:hover {
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
-    padding-right: 15px;
 }
