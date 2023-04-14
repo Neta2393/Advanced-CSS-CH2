@@ -84,4 +84,8 @@ nav li a:hover {
     font-size: larger;
 }
 
-@web 
+#footer{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
