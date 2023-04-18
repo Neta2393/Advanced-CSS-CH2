@@ -1,0 +1,107 @@
+
+#banner {
+    /* Linked image to css style sheet as well as html form */
+    background-image: url(C:\Users\benet\bootcamp\advanced-css-ch2\assets\San Diego View.jpeg);
+    /* ensured that the background image did not repeat*/
+    background-repeat: no-repeat;
+    margin:15px;
+    padding: 15px;
+    font-size: 80px;
+    float::right;
+}
+
+#topnav {
+    /* made sure the top navigation bar was centered */
+    float::center;
+    flex-direction: row;
+    margin: 0px;
+    padding-top: 0px;
+    display:flex;
+    justify-content: space-between;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+     /* Inherits this property from its parent element */
+    white-space: inherit;
+    list-style: none;
+}
+
+body {
+    float: right;
+    /* Inherits this property from its parent element */
+    white-space:  inherit;
+    /* ensured the background color was lightskyblue */
+    background-color: lightskyblue;
+    color:blue;
+    font-size: 25px;
+    margin:15px;
+    padding: 15px;
+    /* ensured the contents of the page that were together were side by side */
+    flex-direction:row;
+    flex-wrap: wrap;
+    /* ensured that the list items had no dots,astericks or any other idetnifying mark in front of them */
+    list-style: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#aboutme {
+     /* ensured space was between the paragraph and the title */
+    justify-content: space-around;
+    justify-content: space-between;
+    /* placed the contents of the paragraph in the center of the page */
+    float: center;
+    font-style: italic;
+    display: flex;
+    /* Placed the title and the paragraph on top and bottm */
+    flex-direction: column;
+    margin: 10px;
+    padding: 15px;
+    font-display:inherit;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#projects {
+   float: center;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-style: italic;
+   margin:15px;
+   padding: 15px;
+   color: blue;
+}
+
+h2 li a:hover{
+    color: darkslateblue;
+    font-size: larger;
+
+}
+#contacts {
+    color: blue;
+    font-style:italic;
+    margin:15px;
+    padding: 15px;
+}
+
+#resume {
+    margin:15px;
+    padding: 15px;
+    font-style: italic;
+
+}
+
+
+nav li a:hover {
+    /* Changed the color when the cursor hovers over navigation items */
+    color:darkslateblue;
+    /* ensured the cursor expanded the navigation items when hovered */
+    font-size: larger;
+}
+
+#footer{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+    main,
+    nav }
