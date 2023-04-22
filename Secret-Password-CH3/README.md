@@ -10,4 +10,19 @@ The assets folder consists of a JavaScript (script.js) file and a CSS style shee
 ## Functionality
 The function of the website is that you should be able to click generate password and be asked a series of questions. The first function of the webpage is that you will write a number between 8 and 128. If you type in a number that is less than 8 or more than  128 the webpage will alert you that the number is not within the acceptable range. After the user goes through the prompts and and press OK the webpage will generate a password that is a mix of numbers,uppercase and lowercase letters and special characters. 
 
+## Accountability
+
+This challenge proved to be challenging. While trying to debug my code I hit a few bumps and although the password generator reads as undefined I learned alot. I worked on this up until the very end and I am proud of what I accomplished. In the spirit of not getting 0 I am conceeding to the password challenge just for tonight so I can turn it in on time. I will continue to look at the code and try to find where I went wrong. You can do all but generate a code. 
+
+## Sources
+
+Throughout the course of me working on challenge 3 I consulted a number of differnet resources to help debug the JavaScript. I have listed them below:
+
+https://www.youtube.com/watch?v=x4HUaiazDes
+
+https://www.w3schools.com/jsref/met_console_log.asp
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return
 
