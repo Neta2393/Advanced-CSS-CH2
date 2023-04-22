@@ -21,6 +21,11 @@ https://www.w3schools.com/html/html_links.asp
 https://stackoverflow.com/questions/42880090/a-better-way-to-space-out-navigation-bar-items
 
 
+
+![image] ![127 0 0 1_5500_index html (2)](https://user-images.githubusercontent.com/128006949/231946171-ded450c3-627a-446c-95bc-75c150499ffa.png)
+
+
+
 ## Attempts
 
 Although this is not the best that I feel like can be done. I attempted to try different styling tools as a new developer I hope to look back at the beginning projects and reflect how I much I have improved. I look forward to continuing my web developement journey. 
