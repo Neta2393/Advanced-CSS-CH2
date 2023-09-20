@@ -1,67 +1,71 @@
 <!DOCTYPE html>
 <html>
-  <body>  
-    <meta charset="UTF-8" />
+<head>
+    <meta charset="UTF-8">
     <title>Benethea Hardin Portfolio</title>
-    <!-- inserted reset css stylesheet and the style sheet that I created and worked off of -->
-    <link rel="stylesheet" href="./assets/reset.css" />
-    <link rel="stylesheet" href="./assets/style.css" />
- 
- 
-<ul>
+    <!-- Inserted reset CSS stylesheet and the style sheet that I created and worked off of -->
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
     <nav id="topnav">
         <!-- Ensured that all navigation items take you to the corresponding section -->
-        <li class="topnav"><a href="#aboutme">About Me</a></li>
-        <li class="topnav"><a href="#projects">Projects</a></li>
-        <li class="topnav"><a href="#contacts">Contact</a></li>
-        <li class="topnav"><a href="#resume">Resume</a></li>
-    </nav>    
- <section id="banner" class="banner" role="banner"></header>
-    <div style="color: black;">Benethea Hardin Portfolio</div>
-    <img src="./assets/Selfie 2023.jpeg" alt="Benethea Selfie" height="400px" width="400px">
-    
-</ul> 
-<section>
-    <section id="aboutme">
-        <h1 style="color:black;">About Me:</h1>
-        <div class="card container">
-            <p>My name is Benethea Hardin and my nickname is Neta. I currently work with adults with developemental
-            disabilities teaching them various community integration and self help skills. I am attending UCSD's Coding Bootcamp. I'm enjoying learning new skills and furthering my
-            knowledge in various fields. My personal interest include traveling, trying new foods, fishing, listening to music and attending concerts.
-            I have lived in San Diego County for 7 and a half years and I enjoy being everywhere from the beach to the desert.</p>
-        </div>
-    </section>   
-</section>
-   <section id="projects">
-        <h2 style="color:black;">Projects:</h2>
-        <!-- linked image and also made a clickable link for my work -->
-        <img src="assets/github_PNG80.png" alt="Github Logo" height="100px" width="100px">
-        <a href="https://github.com/Neta2393/Advanced-CSS-CH2">Git Repository</a>
-       </div> 
+        <ul>
+            <li class="topnav"><a href="#aboutme">About Me</a></li>
+            <li class="topnav"><a href="#projects">Projects</a></li>
+            <li class="topnav"><a href="#contacts">Contact</a></li>
+            <li class="topnav"><a href="#resume">Resume</a></li>
+        </ul>
+    </nav>
+    <section id="banner" class="banner" role="banner">
+        <div style="color: black;">Benethea Hardin Portfolio</div>
     </section>
-    
-
-    <section id="contacts">
-        <h3 style="color:black;">Contacts:</h3>
-        <li>Email: benetheahardin@yahoo.com</li>
-        <li>Phone: (949)566-7292</li>
+    <section class="content-container">
+        <section id="aboutme">
+            <div class="aboutme-container"> <!-- Added a container for the "About Me" section -->
+                <h1 style="color: black;">About Me:</h1>
+                <div class="card container">
+                    <p>My name is Benethea Hardin, and my nickname is Neta. I currently work with adults with developmental
+                        disabilities, teaching them various community integration and self-help skills. I am attending UCSD's
+                        Coding Bootcamp. I'm enjoying learning new skills and furthering my knowledge in various fields. My
+                        personal interests include traveling, trying new foods, fishing, listening to music, and attending
+                        concerts. I have lived in San Diego County for 7 and a half years, and I enjoy being everywhere
+                        from the beach to the desert.</p>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <h2 style="color: black;">Projects:</h2>
+            <ul class="project-list">
+                <li class="project-item">
+                    <img src="assets/github_PNG80.png" alt="GitHub Logo" height="50px" width="50px">
+                    <a href="https://github.com/Neta2393/Advanced-CSS-CH2">GitHub Repository</a>
+                </li>
+                <li class="project-item">
+                    <img src="./assets/Screenshot (74).png" alt="Scoresteezy Logo" height="50px" width="100px">
+                    <a href="https://scorsteezy-a5a23fdb1369.herokuapp.com/">Scoresteezy</a>
+                </li>
+            </ul>
+        </section>
+        <section id="contacts">
+            <h3 style="color: black;">Contacts:</h3>
+            <div class="contact-item">
+                <span class="contact-label">Email:</span>
+                <a href="mailto:benetheahardin@yahoo.com">benetheahardin@yahoo.com</a>
+            </div>
+            <div class="contact-item">
+                <span class="contact-label">Phone:</span>
+                <a href="tel:(949)566-7292">(949) 566-7292</a>
+            </div>
+        </section>
+        <section id="resume">
+            <h4 style="color: black;">Resume:</h4>
+            <a href="./assets/Benethea Hardin Resume.pdf">Benethea Hardin Resume</a>
+        </section>
     </section>
-
-    <section id="resume">
-        <h4 style="color:black;">Resume:</h4>
-        <a href="./assets/Benethea Hardin Resume.pdf">Benethea Hardin Resume</p>
-    </section>
-
-<section id="footer">
-    <!-- added styling to the titles of each section -->
-    <h4 style="color: black; font-style: italic;">I hope you enjoyed the site!</h4>
-    <img src="./assets/San Diego View.jpeg" alt="San Diego View" height="200px" width="200px">
-</section>
-
-    <footer>
-
+    <aside id="selfie">
+        <img src="./assets/Selfie 2023.jpeg" alt="Benethea Selfie" height="400px" width="400px">
+    </aside>
+    <footer></footer>
 </body>
-
 </html>
-
-</footer>

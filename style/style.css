@@ -1,0 +1,140 @@
+/* Define the Monograph font using @font-face */
+@font-face {
+    font-family: 'Monograph';
+    src: url('path-to-monograph-font.woff2') format('woff2'), /* Replace 'path-to-monograph-font.woff2' with the actual path to your font file */
+         url('path-to-monograph-font.woff') format('woff'); /* Replace 'path-to-monograph-font.woff' with the actual path to your font file */
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Reset some default styles for better consistency */
+body, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightskyblue;
+    color: blue;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the top navigation bar horizontally */
+#topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-style: italic;
+    font-size: 20px;
+    list-style: none;
+    background-color: #e0e0e0; /* Change to a background color of your choice */
+    padding: 10px 20px;
+    border: 2px solid #000; /* Add a 2px solid black border around the navigation bar */
+    border-radius: 10px; /* Add rounded corners to the border */
+}
+
+/* Style the navigation links */
+#topnav li {
+    margin-right: 20px;
+}
+
+/* Style the navigation links on hover */
+#topnav li a:hover {
+    color: darkslateblue;
+    font-size: larger;
+}
+
+/* Style the banner section */
+#banner-and-aboutme {
+    display: flex;
+    flex-direction: row; /* Arrange sections side by side */
+    flex-wrap: wrap; /* Wrap to a new line on small screens */
+    justify-content: space-between; /* Add space between sections */
+    align-items: center; /* Vertically align items in each section */
+}
+
+/* Style the banner section */
+#banner {
+    background-image: url('C:/Users/benet/bootcamp/advanced-css-ch2/assets/San Diego View.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 15px;
+    font-size: 80px;
+    flex: 1; /* Take up the left side of the row */
+}
+
+/* Style the about me section */
+#aboutme {
+    text-align: center;
+    font-style: italic;
+    margin: 20px;
+    padding: 15px;
+    flex: 1; /* Take up the remaining available space on the right side */
+    font-family: 'Monograph', sans-serif; /* Apply Monograph font to this section */
+}
+
+/* Style the projects section */
+#projects {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    margin: 20px;
+    padding: 15px;
+    color: blue;
+}
+
+/* Style the links within the projects section */
+#projects a {
+    color: blue;
+}
+
+/* Style the contacts section */
+#contacts {
+    text-align: center;
+    color: blue;
+    font-style: italic;
+    margin: 20px;
+    padding: 15px;
+}
+
+/* Style the resume section */
+#resume {
+    text-align: center;
+    font-style: italic;
+    margin: 20px;
+    padding: 15px;
+}
+
+/* Style the footer section */
+#footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #e0e0e0; 
+    padding: 10px 20px;
+}
+
+/* Style the footer text */
+#footer h4 {
+    font-style: italic;
+    color: black;
+}
+
+/* Style the footer image */
+#footer img {
+    height: 100px; 
+    width: auto;
+    margin-left: 20px; /* Add some space between text and image */
+}
+
+/* Media query for screens up to 768px wide */
+@media screen and (max-width: 768px) {
+    #topnav {
+        background-color: blue; 
+    }
+}
+

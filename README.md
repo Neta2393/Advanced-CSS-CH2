@@ -1,6 +1,8 @@
 # Challenge 2 Accepted
 
-#The purpose of this README is to allow the readers and viewers of the webpage to gain an understanding of my knowledge and who I am. The page serves as a way for colleagues and future employers to easily access my portfolio and contact information. I hope that the webpage shows everyone a little of who I am and what I have learned so far in UCSD's Coding Bootcamp.
+![License Badge](https://img.shields.io/badge/license-MIT-green)
+
+The purpose of this README is to allow the readers and viewers of the webpage to gain an understanding of my knowledge and who I am. The page serves as a way for colleagues and future employers to easily access my portfolio and contact information. I hope that the webpage shows everyone a little of who I am and what I have learned so far in UCSD's Coding Bootcamp.
 
 ## Functionality
 
